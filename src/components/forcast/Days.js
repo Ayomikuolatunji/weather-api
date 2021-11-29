@@ -1,5 +1,3 @@
-
-
 export const Days=[
     "Sunday",
     "Monday",

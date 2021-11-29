@@ -7,7 +7,6 @@ import Dates from "./Dates";
 export default function Forcast({forcasts}){
     if(forcasts){
     const {location,current,forecast}=forcasts;
-    console.log(forcasts)
     const time=location.localtime;
     const newday=new Date(time).getDate()
     const newMonth=new Date(time).getMonth()
